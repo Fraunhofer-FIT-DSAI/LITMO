@@ -1,0 +1,32 @@
+# How to cite LITMO. Machine-readable description of the software: codemeta.json.
+# Still to add: the Zenodo DOI (`doi:` and an `identifiers` entry) and, once accepted, the paper as
+# `preferred-citation`.
+cff-version: 1.2.0
+message: "If you use LITMO, please cite it as below."
+type: software
+title: "LITMO: LITerature-driven Modular Ontologies"
+abstract: >-
+  LITMO is an open-source web tool that builds modular OWL ontologies from a field's literature with a large
+  language model as a drafting partner. It follows the Modular Ontology Modeling (MOMo) methodology: use case,
+  competency questions, key notions, design decisions and modules come first, the OWL file last, and the team
+  decides at every step. Papers are read one by one into a concept inventory with verified quotes; each generated
+  class records its sources; competency questions and hold-out questions from the literature run as SPARQL tests,
+  and a reasoner checks the result.
+authors:
+  - family-names: Moosmann
+    given-names: Paul
+    email: paul.moosmann@fit.fraunhofer.de
+    affiliation: "Fraunhofer Institute for Applied Information Technology FIT"
+repository-code: "https://github.com/Fraunhofer-FIT-DSAI/LITMO"
+url: "https://github.com/Fraunhofer-FIT-DSAI/LITMO"
+license: Apache-2.0
+version: "0.3"
+date-released: "2026-11-24"
+keywords:
+  - ontology engineering
+  - large language models
+  - modular ontologies
+  - Modular Ontology Modeling
+  - competency questions
+  - OWL
+  - literature

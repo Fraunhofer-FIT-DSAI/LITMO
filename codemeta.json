@@ -1,0 +1,60 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "LITMO: LITerature-driven Modular Ontologies",
+  "alternateName": "LITMO",
+  "description": "An open-source web tool that builds modular OWL ontologies from a field's literature with a large language model as a drafting partner, following the Modular Ontology Modeling (MOMo) methodology. Papers are read one by one into a concept inventory with verified quotes; generation runs module by module and records the sources of every class; competency questions and hold-out questions from the literature run as SPARQL tests; a reasoner checks the result; the team decides at every step.",
+  "version": "0.3",
+  "dateCreated": "2026-05-30",
+  "dateModified": "2026-11-24",
+  "codeRepository": "https://github.com/Fraunhofer-FIT-DSAI/LITMO",
+  "issueTracker": "https://github.com/Fraunhofer-FIT-DSAI/LITMO/issues",
+  "readme": "https://github.com/Fraunhofer-FIT-DSAI/LITMO/blob/main/README.md",
+  "license": "https://spdx.org/licenses/Apache-2.0",
+  "developmentStatus": "https://www.repostatus.org/#active",
+  "applicationCategory": "Ontology engineering",
+  "keywords": [
+    "ontology engineering",
+    "large language models",
+    "modular ontologies",
+    "Modular Ontology Modeling",
+    "competency questions",
+    "OWL",
+    "SPARQL",
+    "literature"
+  ],
+  "programmingLanguage": ["Python", "JavaScript", "HTML"],
+  "runtimePlatform": "Python 3",
+  "operatingSystem": ["Windows", "Linux", "macOS"],
+  "softwareRequirements": [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.29.0",
+    "python-multipart>=0.0.9",
+    "anthropic>=1.11.0",
+    "openai>=1.30.0",
+    "openpyxl>=3.1.2",
+    "rdflib>=6.3.2",
+    "pypdf>=4.0.0",
+    "fonttools>=4.0.0",
+    "requests>=2.31.0",
+    "owlready2>=0.46 (HermiT reasoner, needs Java)"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Paul",
+      "familyName": "Moosmann",
+      "email": "paul.moosmann@fit.fraunhofer.de",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fraunhofer Institute for Applied Information Technology FIT"
+      }
+    }
+  ],
+  "maintainer": {
+    "@type": "Person",
+    "givenName": "Paul",
+    "familyName": "Moosmann",
+    "email": "paul.moosmann@fit.fraunhofer.de"
+  }
+}
